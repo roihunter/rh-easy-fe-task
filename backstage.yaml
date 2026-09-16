@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rh-easy-fe-task
+  description: 'Existing repository rh-easy-fe-task onboarded to the Backstage catalog.'
+  annotations:
+    repo: roihunter/rh-easy-fe-task
+  labels:
+    CostCenter: ROIHUNTER
+    Environment: stage
+    Name: rh-easy-fe-task
+    Owner: general-rh
+    Department: ROIHUNTER
+    CreatedBy: Backstage
+spec:
+  type: service
+  owner: general-rh
+  system: roihunter
